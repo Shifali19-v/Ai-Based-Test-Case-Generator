@@ -1,0 +1,76 @@
+# =============================================================================
+# AI-Based Test Case Generator — .gitignore
+# =============================================================================
+
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.lcov
+nosetests.xml
+test-results/
+
+# --- Type Checking ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# --- Linting ---
+.ruff_cache/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS ---
+.DS_Store
+ehthumbs.db
+Desktop.ini
+
+data/*.db
